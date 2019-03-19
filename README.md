@@ -7,6 +7,10 @@ www.giordanaarcesilai.com
 
 </BR>
 
+![Alt text](https://media.giphy.com/media/TFiA7k4jXwErdfU4cX/giphy.gif)
+
+</BR>
+
 
 Coded by: <a href="https://github.com/JonnyBanana">Nicolò Saporito</a> 
 for <a href="https://github.com/WebChainSolutions">WebChainSolutions</a> , Bologna, Italy, 2019
