@@ -1,0 +1,112 @@
+/*------------------------------------------------------------------------
+# Free Coming Soon HTML Templates - Dec 8, 2017
+# ------------------------------------------------------------------------
+# Designed & coded by Awe7 Team
+# Websites:  http://www.awe7.com -  Email: info@awe7.com
+--------------------------------------------------------------------------
+
+    1. countDown
+    2. particles.js
+    2. comming_soon_01
+
+--------------------------------------------------------------------------*/
+
+
+/* 1. countDown
+--------------------------------------------------------------------------------*/
+
+.countdown__module {
+    display: table;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.countdown__module p {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16px;
+    width: 1%;
+    color: #dbc6a6;
+}
+
+@media (min-width: 992px) {
+    .countdown__module p {
+        font-size: 18px;
+    }
+}
+
+.countdown__module p:last-child {
+    border-right: 0;
+}
+
+.countdown__module span {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+@media (min-width: 992px) {
+    .countdown__module span {
+        font-size: 50px;
+    }
+}
+
+.awe-skin-dark .countdown__module p {
+    color: #f1f1f1;
+}
+
+/* 2. particles.js
+--------------------------------------------------------------------------------*/
+#particles-js {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 33;
+}
+
+/* 3. comming_soon_01
+--------------------------------------------------------------------------------*/
+
+.comming-soon-01 .countdown__module {
+    max-width: 500px;
+}
+
+.comming-soon-01__title {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+@media (min-width: 320px) {
+    .comming-soon-01__title {
+        font-size: calc(2.27273vw + 22.72727px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .comming-soon-01__title {
+        font-size: 50px;
+    }
+}
+
+.comming-soon-01__desc {
+    font-size: 18px;
+    color: #1b1b1b;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.awe-skin-dark .comming-soon-01__desc {
+    color: #fcfcfc;
+}
+
+.display-flex-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
